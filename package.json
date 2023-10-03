@@ -4,7 +4,7 @@
   "description": " A notes app that build from HAPI and based on RESTful API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon ./src/server.js",
     "lint": "eslint ./"
   },
   "keywords": [],
@@ -14,5 +14,9 @@
     "eslint": "^8.50.0",
     "eslint-config-google": "^0.14.0",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.3.6"
   }
 }
